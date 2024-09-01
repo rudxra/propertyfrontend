@@ -1,10 +1,6 @@
 import{ client } from '../lib/client';
 import React from 'react'
 import { Product,FooterBanner,HeroBanner} from '@/components'
-import InputField from '@/components/InputField';
-import Location from '@/components/Location';
-import Salary from '@/components/Salary';
-import Bhk from '@/components/bhk';
 const Home = ({products,bannerData}) => {
   return (
     <>
