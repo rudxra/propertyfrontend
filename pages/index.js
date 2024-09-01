@@ -9,12 +9,7 @@ const Home = ({products,bannerData}) => {
   return (
     <>
     <HeroBanner heroBanner={bannerData.length&&bannerData[0]}/>
-    <div className='filter'>
-    <Location className="location"/>
-    <Salary className="salary"/>
-    <Bhk className="bhk"/>
-
-    </div>
+   
     <div className='products-heading'>
       <h2>Verified Sellers</h2>
       <p>Properties across the entire country.</p>
